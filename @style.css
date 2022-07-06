@@ -1,0 +1,91 @@
+@media(max-width: 1200px){
+/* =========================
+Global 
+==========================*/
+html{
+    font-size: 55%;
+}
+
+/* =========================
+Header Section Styling 
+==========================*/
+.home{
+    padding: 1rem 4rem;
+}
+}
+
+
+@media(max-width: 990px){
+/* =========================
+Global 
+==========================*/
+body{
+    padding: 0;
+}
+
+/* =========================
+Header Section Styling 
+==========================*/
+.header{
+    left: -120%;
+    transition: all .3s linear;
+}
+.header.active{
+    left: 0;
+}
+.container {
+    cursor: pointer;
+    display: block;   
+}
+}
+
+
+@media(max-width: 698px){
+/* =========================
+About Section Styling 
+==========================*/
+.about .row{
+    justify-content: center;
+}
+}
+
+@media(max-width: 457px){
+/* =========================
+About Section Styling 
+==========================*/
+.heading{
+    margin: 0 3rem;
+}
+.about .row .continar .box{
+    width: 100%;
+}
+}
+
+@media(max-width: 554px){
+/* =========================
+Education Section Styling 
+==========================*/
+.education .continar .box{
+    width: 100%;
+}
+
+/* =========================
+Prtfolio Section Styling 
+==========================*/
+.portfolio .continar .box{
+    width: 100%;
+}
+}
+
+@media(max-width: 768px){   
+/* =========================
+Contact Section Styling 
+==========================*/
+.contact .row{
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.contact .row form{
+    margin: 3rem 0;
+}
+}
